@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Cou from './Cou'
+import Team from './Team'
 //  import Counter from './Counter'
 function App() {
   function  handleClick() {
@@ -23,7 +24,7 @@ function App() {
 
        <button onClick={handleClick2}>Click me</button>
        <Cou></Cou>
-      {/* <Counter></Counter> */}
+      <Team></Team>
     </>
   )
 }
